@@ -1,0 +1,56 @@
+:root {
+  --primary-blue: #003366;
+  --accent-orange: #FF6600;
+  --neutral-grey: #F5F5F5;
+  --white: #FFFFFF;
+  --dark-text: #333333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--neutral-grey);
+  color: var(--dark-text);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: var(--white);
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+  background-color: var(--white);
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: var(--primary-blue);
+}
+
+button {
+  background-color: var(--accent-orange);
+  color: var(--white);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.image-placeholder, .video-placeholder, .service-card, .case-card {
+  background-color: var(--neutral-grey);
+  border: 2px dashed var(--primary-blue);
+  padding: 20px;
+  margin: 10px 0;
+  text-align: center;
+}
